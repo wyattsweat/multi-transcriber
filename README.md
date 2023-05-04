@@ -27,31 +27,47 @@ To install the other requirements please run pip3 install -r requirements.txt
 
 The directory structure should look like the following at the end:
 
-base directory
-->vosk-model
-->->am
-->->conf
-->->graph
-->->ivector
-->->README
+├──vosk-model
 
-->vosk-model-spk
-->->final.ext.raw
-->->mean.vec
-->->mfcc.conf
-->->README.txt
-->->transform.mat
+├──├──am
 
-->wavs
+├──├──conf
 
-->changes.csv
-->convo.csv
-->loop_v4.py
-->requirements.txt
-->settings.txt
-->speech_to_text_gui.py
-->voiceprints.csv
-->writer.py
+├──├──graph
+
+├──├──ivector
+
+├──├──README
+
+├──vosk-model-spk
+
+├──├──final.ext.raw
+
+├──├──mean.vec
+
+├──├──mfcc.conf
+
+├──├──README.txt
+
+├──├──transform.mat
+
+├──wavs
+
+├──changes.csv
+
+├──convo.csv
+
+├──loop_v4.py
+
+├──requirements.txt
+
+├──settings.txt
+
+├──speech_to_text_gui.py
+
+├──voiceprints.csv
+
+├──writer.py
 
 
 Once everything is installed, run writer.py, loop_v4.py, and speech_to_text_gui.py in parallel (separate terminals/cmd lines/etc).  loop_v4.py will generally take a minute or two to initialize and will download the Whisper AI model the first time running it which can take some time.
