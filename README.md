@@ -73,3 +73,5 @@ Please notice that an empty wavs directory is added to the base directory.
 
 
 Once everything is installed, run writer.py, loop_v4.py, and speech_to_text_gui.py in parallel (separate terminals/cmd lines/etc).  loop_v4.py will generally take a minute or two to initialize and will download the Whisper AI model the first time running it which can take some time.
+
+Some of the diarization code modified from the base https://github.com/alphacep/vosk-api
