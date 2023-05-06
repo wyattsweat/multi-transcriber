@@ -22,6 +22,8 @@ and
 https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip
 unzipped to vosk-model
 
+This project uses Python 3.8.10
+
 To install the other requirements please run pip3 install -r requirements.txt
 
 
